@@ -114,8 +114,11 @@ h2{
     background:transparent;
     border-color: white;
     outline: none;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
     
-
 }
 
 .inp2{
