@@ -1,0 +1,22 @@
+body{
+   
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(-50deg, #231557 0%, #44107A 14%, #ff1362e1 70%, #fff700 100%);
+    
+}
+
+/* Ma police*/ 
+@font-face {
+    font-family: 'Billabong';
+    src: url(./Billabong.ttf);
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    font-family: 'Billabong';
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 1%;
+}
