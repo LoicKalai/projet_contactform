@@ -10,7 +10,11 @@ body{
 @font-face {
     font-family: 'Billabong';
     src: url(./Billabong.ttf);
+    font-family:'Roboto';
+    src: url(./assets/Roboto-Regular.ttf);
 }
+
+
 
 h1{
     display: flex;
@@ -32,4 +36,35 @@ h1{
 .logo{
 margin-right: 1%;
 
+}
+
+h2{
+    color: white;
+    font-family:'Roboto';
+    text-align: center;
+    font-size: 2.5rem;
+}
+/*--------------Fin d'entête--------------*/
+
+.p1{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.563rem;
+    margin: 0;
+
+
+}
+.p2{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.563rem;
+    margin:0;
+    
+}
+.placepicone{
+    display: flex;
+    justify-content: center;
+}
+.placep{
+    margin-left: 1%;
 }
