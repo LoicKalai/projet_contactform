@@ -129,6 +129,33 @@ h2{
     border-left: 0px;
     border-right: 0px;
     background:transparent;
+    font-family: FontAwesome;
     border-color: white;
     outline: none;
+}
+.inp1::placeholder{
+    color: white;
+}
+
+.inp2::placeholder{
+    color: white;
+}
+.inpligne2{
+    margin-top: 12vh;
+}
+.mailadr{
+    display: flex;
+    justify-content: space-between;
+}
+.mail{
+    color: white;
+    margin-left: 3%;
+    font-size: 1.875rem;
+    font-family: 'Roboto_light';
+}
+.adresse{
+    color: white;
+    margin-right: 35%;
+    font-size: 1.875rem;
+    font-family: 'Roboto_light';
 }
