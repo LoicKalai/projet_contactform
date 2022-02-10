@@ -75,6 +75,7 @@ h2{
 }
 
 /*-------------Fin de l'entête------------*/
+
 .inpligne1{
     margin-top: 12vh;
     
@@ -265,9 +266,9 @@ input{ /*Changement de couleur du texte dans input*/
 
 
 /*--------------------------RESPONSIVE------------------------------*/
-@media (max-width:768px) {
+@media (max-width:800px) {
     h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .logo{
         margin-right: 3%;
@@ -287,5 +288,238 @@ input{ /*Changement de couleur du texte dans input*/
       width: 3.125rem;
       margin-left: 2%;
     }
+    .tel, .nom{
+        font-size: 1.5rem;
+    }
+    .tel, .adresse{
+        margin-right: 0;
+    }
+    .mail, .adresse{
+        font-size: 1.5rem;
+    }
+    .inp1, .inp2{
+        width:50%;
+    }
+    .inp2, .inp4{
+        margin-right: 4%;
+    }
+    .inp3, .inp4{
+        width: 17rem;
+    }
+    .message{
+        font-size: 1.5rem;  
+    }
+    .inp5{
+        width: 25rem;
+    }
+    .send{
+        width: 15%;
+        height: 75%;
+        font-size: 1.2rem;
+        margin-right: 10%;
+    }
     
 }
+@media (max-width:1500px){
+    h1{
+        font-size: 3.5rem;
+    }
+    .logo{
+        margin-right: 2%;
+        width: 3.25rem; 
+        height: 3.25rem;
+    }
+    h2{
+        font-size: 1.825rem;
+    }
+    .p1 {
+        font-size: 1.48rem;
+    }
+    .p2{
+        font-size: 1.48rem;
+    }
+    .icon_users{
+      width: 3.125rem;
+      margin-left: 2%;
+    }
+    .tel, .nom{
+        font-size: 1.5rem;
+    }
+    .mail, .adresse{
+        font-size: 1.5rem;
+    }
+    .inp1, .inp2{
+        width: 25rem;
+    }
+    .inp3, .inp4{
+        width: 25rem;
+    }
+    .message{
+        font-size: 1.5rem;  
+    }
+    .inp5{
+        width: 43rem;
+    }
+    .send{
+        width: 15%;
+        height: 75%;
+        font-size: 1.2rem;
+        margin-right: 10%;
+    }
+}
+@media (max-width:1300px){
+    h1{
+        font-size: 3.5rem;
+    }
+    .logo{
+        margin-right: 2%;
+        width: 3.25rem; 
+        height: 3.25rem;
+    }
+    h2{
+        font-size: 1.825rem;
+    }
+    .p1 {
+        font-size: 1.48rem;
+    }
+    .p2{
+        font-size: 1.48rem;
+    }
+    .icon_users{
+      width: 3.125rem;
+      margin-left: 2%;
+    }
+    .tel, .nom{
+        font-size: 1.5rem;
+    }
+    .mail, .adresse{
+        font-size: 1.5rem;
+    }
+    .inp1, .inp2{
+        width: 25rem;
+    }
+    .inp3, .inp4{
+        width: 25rem;
+    }
+    .message{
+        font-size: 1.5rem;  
+    }
+    .inp5{
+        width: 43rem;
+    }
+    .send{
+        width: 15%;
+        height: 75%;
+        font-size: 1.2rem;
+        margin-right: 10%;
+    }
+}
+@media (max-width:1000px){
+    h1{
+        font-size: 3.5rem;
+    }
+    .logo{
+        margin-right: 2%;
+        width: 3.25rem; 
+        height: 3.25rem;
+    }
+    h2{
+        font-size: 1.650rem;
+    }
+    .p1 {
+        font-size: 1.20rem;
+    }
+    .p2{
+        font-size: 1.20rem;
+    }
+    .icon_users{
+      width: 2.700rem;
+      margin-left: 2%;
+    }
+    .tel, .nom{
+        font-size: 1.25rem;
+    }
+    .tel, .adresse{
+        margin-right: 25%;
+        width: 13.75rem;
+    }
+    .mail, .adresse{
+        font-size: 1.25rem;
+    }
+    .inp1, .inp2{
+        width: 20rem;
+    }
+    .inp3, .inp4{
+        width: 20rem;
+    }
+    .message{
+        font-size: 1.25rem;  
+    }
+    .inp5{
+        width: 33rem;
+    }
+    .send{
+        width: 15%;
+        height: 75%;
+        font-size: 1.2rem;
+        margin-right: 10%;
+    }
+}
+@media(max-width:700px){
+    h1{
+        font-size:2.800rem ;
+    }
+    .logo{
+        width: 2.700rem;
+        height: 2.700rem;
+    }
+    h2{
+        font-size: 1.350rem;
+    }
+    .p1 {
+        font-size: 1.050rem;
+    }
+    .p2{
+        font-size: 1.050em;
+    }
+    .icon_users{
+      width: 2.300rem;
+      margin-left: 2%;
+    }
+    .tel, .nom{
+        font-size: 1.10rem;
+    }
+    .tel, .adresse{
+        margin-right: 25%;
+        width: 9rem;
+    }
+    .mail, .adresse{
+        font-size: 1.10rem;
+    }
+    .inp1, .inp2{
+        width: 13rem;
+    }
+    .inp2, .inp4{
+        margin-right: 15%;
+    }
+    .inp3, .inp4{
+        width: 13rem;
+    }
+    .message{
+        font-size: 1.10rem;  
+    }
+    .inp5{
+        width: 23rem;
+    }
+    .send{
+        width: 15%;
+        height: 75%;
+        font-size: 1.2rem;
+        margin-right: 10%;
+    }
+
+}
+@media(max-width:425px){
+    
+}
+
