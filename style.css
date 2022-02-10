@@ -262,3 +262,30 @@ input{ /*Changement de couleur du texte dans input*/
 .send:active{
     transform: translateY(1px); /*Activer la fonctionnalité de click*/
 }
+
+
+/*--------------------------RESPONSIVE------------------------------*/
+@media (max-width:768px) {
+    h1{
+        font-size: 4rem;
+    }
+    .logo{
+        margin-right: 3%;
+        width: 3.75rem; 
+        height: 3.75rem;
+    }
+    h2{
+        font-size: 1.875rem;
+    }
+    .p1 {
+        font-size: 1.48rem;
+    }
+    .p2{
+        font-size: 1.48rem;
+    }
+    .icon_users{
+      width: 3.125rem;
+      margin-left: 2%;
+    }
+    
+}
