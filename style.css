@@ -117,7 +117,7 @@ h2{
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
-    text-decoration: inherit;
+    
     
 }
 
@@ -133,13 +133,21 @@ h2{
     border-color: white;
     outline: none;
 }
-.inp1::placeholder{
+.inp1::placeholder{ /*Couleur des icones*/
     color: white;
 }
 
-.inp2::placeholder{
+.inp2::placeholder{ 
     color: white;
 }
+.inp3::placeholder{
+    color: white;
+}
+.inp4::placeholder{
+    color: white;
+}
+/*Fin de couleur icone*/
+
 .inpligne2{
     margin-top: 12vh;
 }
@@ -159,3 +167,39 @@ h2{
     font-size: 1.875rem;
     font-family: 'Roboto_light';
 }
+
+.placeinp3et4{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1%;
+    height: 4rem;
+}
+.inp3{
+    margin-left: 3%;
+    width:32.68rem ;
+    font-size: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background:transparent;
+    border-color: white;
+    outline: none;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.inp4{
+    width: 32.68rem;
+    margin-right: 14.5%;
+    font-size: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background:transparent;
+    font-family: FontAwesome;
+    border-color: white;
+    outline: none;
+}
+input{ /*Changement de couleur du texte dans input*/
+    color: white;
+} 
