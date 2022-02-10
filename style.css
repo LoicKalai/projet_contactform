@@ -1,6 +1,6 @@
 body{
    
-    height: 100vh;
+    height: 100;
     margin: 0;
     background: linear-gradient(-50deg, #231557 0%, #44107A 14%, #ff1362e1 70%, #fff700 100%);
     
@@ -203,3 +203,62 @@ h2{
 input{ /*Changement de couleur du texte dans input*/
     color: white;
 } 
+
+/*Input ligne 3*/ 
+
+.inpligne3{
+    margin-top: 12vh;  
+}
+.message{
+    color: white;
+    margin-left: 3%;
+    font-size: 1.875rem;
+    font-family: 'Roboto_light';
+}
+.messbtn{
+    display: flex;
+    justify-content: space-between;
+}
+.placeinp5etbtn{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    height: 4rem;
+}
+.inp5{
+    margin-left: 3%;
+    width:60rem ;
+    font-size: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background:transparent;
+    border-color: white;
+    outline: none;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.inp5::placeholder{
+    color: white;
+}
+
+.send{
+    width: 10%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px #FFFFFF;
+    border-radius: 15px;
+    border: 0;
+    color: #8B1CA0;
+    font-size: 1.80rem;
+    font-weight: bold;
+    font-family:'Roboto_regular';
+    margin-right: 20%;
+    margin-top: 1.5%;
+    
+}
+.send:active{
+    transform: translateY(1px); /*Activer la fonctionnalité de click*/
+}
