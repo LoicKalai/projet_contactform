@@ -9,15 +9,15 @@ body{
 /* Ma police*/ 
 @font-face {
     font-family: 'Billabong';
-    src: url(./Billabong.ttf);
+    src: url(../assets/police/Billabong.ttf);
     font-family:'Roboto_regular';
-    src: url(./assets/police/Roboto-Regular.ttf);
+    src: url(../assets/police/Roboto-Regular.ttf);
 
 }
 
 @font-face {
     font-family: 'Roboto_light';
-    src: url(./assets/police/Roboto-Light.ttf);
+    src: url(../assets/police/Roboto-Light.ttf);
 }
 
 
