@@ -271,6 +271,20 @@ input{ /*Changement de couleur du texte dans input*/
 .send:active{
     transform: translateY(1px); /*Activer la fonctionnalité de click*/
 }
+h1, h2, .placepicone, main{
+    animation: apparition 2s ease-in-out;
+}
+@keyframes apparition{
+   from{
+       opacity: 0;
+       transform: translateY(-100px);
+   } 
+   to{
+       opacity: 1;
+       transform: translateY(0px)
+   }
+}
+
 /*--------------------------RESPONSIVE------------------------------*/
 @media (max-width:800px) {
     h1{
