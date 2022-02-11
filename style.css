@@ -260,11 +260,17 @@ input{ /*Changement de couleur du texte dans input*/
     margin-top: 1.5%;
     
 }
+
+/*---------------------------Animation----------------------------*/
+
+
+.send:hover{
+    color:#ff1362e1;
+    
+}
 .send:active{
     transform: translateY(1px); /*Activer la fonctionnalité de click*/
 }
-
-
 /*--------------------------RESPONSIVE------------------------------*/
 @media (max-width:800px) {
     h1{
