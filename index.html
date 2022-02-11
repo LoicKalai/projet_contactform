@@ -36,8 +36,7 @@
         <h3 class="tel">Téléphone</h3>
     </div>
         <div class="placeinp1et2">
-            <input class="inp1" type="text" placeholder="&#xf007;" pattern="^[( )a-zA-Z]+$">
-            <span>Veuillez entrer uniquement des lettres</span>
+            <input class="inp1" type="text" placeholder="&#xf007;" pattern="^[( )a-zA-Z]+$" required>
             <input class="inp2" type="text" placeholder="&#xf3cd;" minlength="10"required >
         </div>
 </div> 
@@ -51,6 +50,7 @@
 
         <div class="placeinp3et4">
             <input type="text" class="inp3" placeholder="&#xf0e0;" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"required>
+            <p class="errormail"></p>
             <input type="text" class="inp4" placeholder="&#xf015;">
         </div>
     </div>

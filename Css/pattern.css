@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Roboto_light';
+    src: url(../assets/police/Roboto-Light.ttf);
+}
 .inp2:focus::placeholder {
     color: transparent;
     }
@@ -12,10 +16,14 @@
     border-color: red;
     }
 
-
 .inp3:required:valid{
     border-color: green;
 }
 .inp3:focus:invalid{
     border-color: red;
+}
+.errormail{
+    color: red;
+    font-family: 'Roboto_light';
+    font-size: 1.5em;
 }
