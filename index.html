@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/pattern.css">
     <link rel="icon" href="./assets/media/logo.ico">
 
     <title>Datagram -Formulaire de contact</title>
@@ -35,8 +36,9 @@
         <h3 class="tel">Téléphone</h3>
     </div>
         <div class="placeinp1et2">
-            <input class="inp1" type="text" placeholder="&#xf007;">
-            <input class="inp2" type="text" placeholder="&#xf3cd;">
+            <input class="inp1" type="text" placeholder="&#xf007;" pattern="^[( )a-zA-Z]+$">
+            <span>Veuillez entrer uniquement des lettres</span>
+            <input class="inp2" type="text" placeholder="&#xf3cd;" minlength="10"required >
         </div>
 </div> 
 <!--Fin de ligne1-->
@@ -48,7 +50,7 @@
         </div>
 
         <div class="placeinp3et4">
-            <input type="text" class="inp3" placeholder="&#xf0e0;">
+            <input type="text" class="inp3" placeholder="&#xf0e0;" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"required>
             <input type="text" class="inp4" placeholder="&#xf015;">
         </div>
     </div>
@@ -68,6 +70,7 @@
 
 
 </main>
+<script src="./js/script.js"></script>
 <script src="https://kit.fontawesome.com/fb1680e2ef.js" crossorigin="anonymous"></script>   
 </body>
 </html>

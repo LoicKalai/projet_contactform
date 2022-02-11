@@ -1,0 +1,21 @@
+.inp2:focus::placeholder {
+    color: transparent;
+    }
+.inp2:required:valid {
+    border-color: green;
+    }
+.inp2::before:invalid{
+    border-color: none;
+    }
+
+.inp2:focus:invalid{
+    border-color: red;
+    }
+
+
+.inp3:required:valid{
+    border-color: green;
+}
+.inp3:focus:invalid{
+    border-color: red;
+}
