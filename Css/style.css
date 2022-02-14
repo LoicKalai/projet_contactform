@@ -684,4 +684,11 @@ h1, h2, .placepicone, main{
 
     
 }
-
+/* Message d'erreur*/
+.erreur{
+    color: red;
+    visibility:hidden;
+    margin-left: 3%;
+    font-family: 'Roboto_regular';
+    font-weight: bold;
+}
