@@ -684,7 +684,7 @@ h1, h2, .placepicone, main{
 
     
 }
-/* Message d'erreur*/
+/*------------------------- Message d'erreur----------------------------*/
 .erreur{
     color: red;
     visibility:hidden;

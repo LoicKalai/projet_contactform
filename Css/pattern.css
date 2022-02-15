@@ -22,8 +22,3 @@
 .inp3:focus:invalid{
     border-color: red;
 }
-.errormail{
-    color: red;
-    font-family: 'Roboto_light';
-    font-size: 1.5em;
-}
